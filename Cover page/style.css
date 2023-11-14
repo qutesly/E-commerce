@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Verdana, Tahoma, sans-serif;
 }
 * p{
     color: var(--mainGrey);
@@ -107,7 +108,7 @@ body{
 }
 .hero-currency-content{
     width: 100%;
-    max-width: 9rem;
+    max-width: 11rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -172,11 +173,12 @@ body{
 }
 .section1-container > h1{
     margin-bottom: 1rem;
-    display: block;
 }
+
 
 .section1-contents{
     width: 100%;
+    max-width: 78rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -190,7 +192,7 @@ body{
 }
 
 .scroll-bar{
-    margin-right: 0.5rem;
+    margin-right: 1rem;
 }
 .scroll-bar, .inner-scrollBar{
     width: 100%;
@@ -199,7 +201,7 @@ body{
     border-radius: 0.5rem;
     display: flex;
     align-items: flex-start;
-    height: 10.7rem;
+    height: 12.6rem;
 }
 .scroll-bar2{
     align-items: center;
@@ -214,15 +216,21 @@ body{
 }
 .section1-contentInfo{
     width: 100%;
-    max-width: 13.3rem;
+    max-width: 20rem;
+}
+.section1-contentInfo > img{
+    width: 100%;
+    max-width: 4rem;
+    height: 4rem;
 }
 .section1-contentInfo > h3{
     margin-bottom: 1rem;
 }
 .section1-contentInfo > p{
     line-height: 1.5rem;
+    text-align: justify;
+    font-size: 0.7rem;
 }
-
 
 
 .section2{
@@ -240,6 +248,7 @@ body{
 .section2-content1{
     width: 100%;
     max-width: 24rem;
+    height: 31rem;
     flex: 1;
     padding: 1rem;
     border-radius: 0.3rem;
@@ -249,6 +258,7 @@ body{
     margin-bottom: 1rem;
 }
 .section2-content1 > p{
+
     margin-bottom: 1rem;
 }
 .section2-content1 > .grater{
@@ -469,7 +479,7 @@ body{
     display: block;
 }
 .section3-others > p{
-    font-size: 0.8rem;
+    font-size: 0.6rem;
     margin-bottom: 0.7rem;
 }
 .section3-others > .greenText-para{
@@ -1148,18 +1158,10 @@ ol{
     .section1-container > h1{
         font-size: 0.9rem;
     }
-
-    .content{
-        max-width: 7.2rem;
-        height: 8rem;
-    }
-    .content p{
-        text-align: justify;
-        margin-right: 0.1rem;
-    }
     
     .scroll-bar{
-        margin-right: 0.2rem;
+        margin-right: 0.5rem;
+        margin-left: 0.4rem;
     }
     .scroll-bar, .inner-scrollBar{
         height: 6.8rem;
@@ -1172,14 +1174,15 @@ ol{
     }
     .section1-contentInfo > h3{
         margin-bottom: 0.5rem;
-        font-size: 0.7rem;
+        font-size: 0.6rem;
     }
     .section1-contentInfo > p{
         line-height: 0.8rem;
-        font-size: 0.5rem;
+        font-size: 0.4rem;
     }
     .section1-contentInfo > img{
-        max-width: 1.5rem;
+        max-width: 2rem;
+        height: 2rem;
     }
     
     .section2-container{
