@@ -937,12 +937,8 @@ ol{
         max-width: 10rem;
         object-fit: contain;
     }
-    .section4-contentMiddle{
-        border: 1px solid red;
-        /* max-width: 20rem; */
-    }
+    
     .section4-contentMiddle > h1{
-        border: 1px solid red;
         font-size: 1rem;
     }
     .section4-contentMiddle > p{
