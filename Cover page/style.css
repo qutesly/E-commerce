@@ -938,9 +938,11 @@ ol{
         object-fit: contain;
     }
     .section4-contentMiddle{
-        max-width: 20rem;
+        border: 1px solid red;
+        /* max-width: 20rem; */
     }
     .section4-contentMiddle > h1{
+        border: 1px solid red;
         font-size: 1rem;
     }
     .section4-contentMiddle > p{
@@ -979,15 +981,12 @@ ol{
         padding: 0 2rem;
     }
     .section5-boxingContainer{
-        /* border: 1px solid red; */
         margin-bottom: 0.2rem;
     }
     .section5-boxingContainer1{
-        /* border: 1px solid red; */
         margin-right: 0;
     }
     .section5-box{
-        /* border: 1px solid red; */
         max-width: 14.8rem;
         height: 18.5rem;
         padding: 0.7rem ;
@@ -1329,10 +1328,11 @@ ol{
         max-width: 4rem;
     }
     .section4-contentMiddle{
-        max-width: 10rem;
+        max-width: 100%;
+        transform: translateX(1.3rem);
     }
     .section4-contentMiddle > h1{
-        font-size: 0.6rem;
+        font-size: 0.5rem;
     }
     .section4-contentMiddle > p{
         font-size: 0.4rem;
